@@ -15,14 +15,8 @@ export const nav = [
     text: "blog",
     path: "/blog",
   },
-  {
-    text: "pricing",
-    path: "/pricing",
-  },
-  {
-    text: "contact",
-    path: "/contact",
-  },
+
+  
 ]
 export const featured = [
   {
@@ -56,54 +50,54 @@ export const list = [
     id: 1,
     cover: "../images/list/p-1.png",
     name: "Red Carpet Real Estate",
-    location: "210 Zirak Road, Canada",
+    location: "Hyderabad,India",
     category: "For Rent",
-    price: "$3,700",
+    price: "20,000 Rs",
     type: "Apartment",
   },
   {
     id: 2,
     cover: "../images/list/p-2.png",
     name: "Fairmount Properties",
-    location: "5698 Zirak Road, NewYork",
+    location: "Chennai,India",
     category: "For Sale",
-    price: "$9,750",
+    price: "1.5CR Rs",
     type: "Condos",
   },
   {
     id: 3,
     cover: "../images/list/p-7.png",
     name: "The Real Estate Corner",
-    location: "5624 Mooker Market, USA",
+    location: "Bangalore,India",
     category: "For Rent",
-    price: "$5,860",
+    price: "30,000 Rs",
     type: "Offices",
   },
   {
     id: 4,
     cover: "../images/list/p-4.png",
     name: "Herringbone Realty",
-    location: "5621 Liverpool, London",
+    location: "Mumbai,India",
     category: "For Sale",
-    price: "$7,540",
+    price: "1.5CR Rs",
     type: "Homes & Villas",
   },
   {
     id: 5,
     cover: "../images/list/p-5.png",
     name: "Brick Lane Realty",
-    location: "210 Montreal Road, Canada",
+    location: "Goa,India",
     category: "For Rent",
-    price: "$4,850",
+    price: "40,000 Rs",
     type: "Commercial",
   },
   {
     id: 6,
     cover: "../images/list/p-6.png",
     name: "Banyon Tree Realty",
-    location: "210 Zirak Road, Canada",
+    location: "Hyderabad,India",
     category: "For Sale",
-    price: "$2,742",
+    price: "2CR Rs",
     type: "Apartment",
   },
 ]
@@ -132,51 +126,51 @@ export const awards = [
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
+    name: "Hyderabad,India",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-1.png",
+    cover: "./images/location/hyderabad.png",
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "Chennai,India",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-2.png",
+    cover: "./images/location/chennai.png",
   },
   {
     id: 3,
-    name: "Liverpool, London",
+    name: "Mumbai,India",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-3.png",
+    cover: "./images/location/mumbai.png",
   },
   {
     id: 4,
-    name: "NewYork, United States",
+    name: "Bangalore,India",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-4.png",
+    cover: "./images/location/bangalore.png",
   },
   {
     id: 5,
-    name: "Montreal, Canada",
+    name: "Goa,India",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-5.png",
+    cover: "./images/location/goa.png",
   },
   {
     id: 6,
-    name: "California, USA",
+    name: "Delhi,India",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-6.png",
+    cover: "./images/location/delhi.png",
   },
 ]
 export const team = [
@@ -293,7 +287,7 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
+        text: "Personal Help Support",   
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -305,14 +299,14 @@ export const price = [
 export const footer = [
   {
     title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Single Blog" },{list: "location"}]
   },
   {
     title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Footers" }],
   },
   {
     title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }],
   },
 ]

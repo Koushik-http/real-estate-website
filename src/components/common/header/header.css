@@ -1,6 +1,59 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.modal-content button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #1e8449;
+}
+
 header {
   background-color: #fff;
-  height: 10vh;
+  height: 15vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
   padding: 15px 0;
   position: sticky;
@@ -11,7 +64,7 @@ header img {
   width: 170px;
 }
 header a {
-  margin-left: 30px;
+  margin-left: 60px;
   transition: 0.5s;
   font-weight: 500;
 }
@@ -40,6 +93,7 @@ header .toggle {
   }
   header img {
     margin-top: 30px;
+
   }
   header .button {
     display: none;
@@ -59,9 +113,11 @@ header .toggle {
     background-color: #27ae60;
     padding: 20px;
   }
+  
   header li a {
     display: inline-block;
     margin-bottom: 20px;
     color: #fff;
   }
 }
+

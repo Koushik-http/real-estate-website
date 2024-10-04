@@ -1,10 +1,21 @@
 .location .box {
   position: relative;
   border-radius: 5px;
+  overflow: hidden; /* Ensures that the zoom effect doesn't overflow outside the box */
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
 }
+
+.location .box:hover {
+  transform: scale(1.05); /* Zoom in slightly on hover */
+}
+
 .location img {
   border-radius: 5px;
+  width: 100%; /* Ensures the image covers the box */
+  height: auto; /* Maintains aspect ratio */
 }
+
+
 .location .overlay {
   position: absolute;
   top: 0;
@@ -29,7 +40,9 @@
   z-index: -1;
   margin: 20px;
   border-radius: 5px;
+  transition: background 0.3s ease; /* Add transition for smooth hover effect */
 }
+
 .location h5 {
   font-size: 18px;
   font-weight: 500;
